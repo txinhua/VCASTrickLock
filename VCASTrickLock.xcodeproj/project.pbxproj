@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F05F2A1DADE0DE005B6AB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F05F291DADE0DE005B6AB2 /* main.m */; };
+		D0F05F2D1DADE0DE005B6AB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F05F2C1DADE0DE005B6AB2 /* AppDelegate.m */; };
+		D0F05F301DADE0DE005B6AB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F05F2F1DADE0DE005B6AB2 /* ViewController.m */; };
+		D0F05F331DADE0DE005B6AB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F05F311DADE0DE005B6AB2 /* Main.storyboard */; };
+		D0F05F351DADE0DE005B6AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F05F341DADE0DE005B6AB2 /* Assets.xcassets */; };
+		D0F05F381DADE0DE005B6AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F05F361DADE0DE005B6AB2 /* LaunchScreen.storyboard */; };
+		D0F05F461DADE416005B6AB2 /* PassWordCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F05F451DADE416005B6AB2 /* PassWordCanvas.m */; };
+		D0F05F491DADFC92005B6AB2 /* PassWordDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F05F481DADFC92005B6AB2 /* PassWordDotView.m */; };
+		D0F05F4C1DAE00D1005B6AB2 /* PassWordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F05F4B1DAE00D1005B6AB2 /* PassWordInputView.m */; };
+		D0F05F521DAE0345005B6AB2 /* VcAsLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F05F511DAE0345005B6AB2 /* VcAsLockViewController.m */; };
+		D0F05F551DAE0433005B6AB2 /* VcAsLock.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F05F541DAE0433005B6AB2 /* VcAsLock.storyboard */; };
+		D0F05F731DAE158F005B6AB2 /* VCLockMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F05F721DAE158F005B6AB2 /* VCLockMedia.xcassets */; };
+		D0F05F901DAE34B6005B6AB2 /* MyPasswordUIValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F05F8D1DAE34B6005B6AB2 /* MyPasswordUIValidation.m */; };
+		D0F05F911DAE34B6005B6AB2 /* PasswordUIValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F05F8F1DAE34B6005B6AB2 /* PasswordUIValidation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0F05F251DADE0DE005B6AB2 /* VCASTrickLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCASTrickLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F05F291DADE0DE005B6AB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0F05F2B1DADE0DE005B6AB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0F05F2C1DADE0DE005B6AB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0F05F2E1DADE0DE005B6AB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0F05F2F1DADE0DE005B6AB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0F05F321DADE0DE005B6AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0F05F341DADE0DE005B6AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0F05F371DADE0DE005B6AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0F05F391DADE0DE005B6AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F05F441DADE416005B6AB2 /* PassWordCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordCanvas.h; sourceTree = "<group>"; };
+		D0F05F451DADE416005B6AB2 /* PassWordCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordCanvas.m; sourceTree = "<group>"; };
+		D0F05F471DADFC92005B6AB2 /* PassWordDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordDotView.h; sourceTree = "<group>"; };
+		D0F05F481DADFC92005B6AB2 /* PassWordDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordDotView.m; sourceTree = "<group>"; };
+		D0F05F4A1DAE00D1005B6AB2 /* PassWordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordInputView.h; sourceTree = "<group>"; };
+		D0F05F4B1DAE00D1005B6AB2 /* PassWordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordInputView.m; sourceTree = "<group>"; };
+		D0F05F501DAE0345005B6AB2 /* VcAsLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcAsLockViewController.h; sourceTree = "<group>"; };
+		D0F05F511DAE0345005B6AB2 /* VcAsLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcAsLockViewController.m; sourceTree = "<group>"; };
+		D0F05F541DAE0433005B6AB2 /* VcAsLock.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VcAsLock.storyboard; sourceTree = "<group>"; };
+		D0F05F721DAE158F005B6AB2 /* VCLockMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = VCLockMedia.xcassets; sourceTree = "<group>"; };
+		D0F05F8C1DAE34B6005B6AB2 /* MyPasswordUIValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPasswordUIValidation.h; sourceTree = "<group>"; };
+		D0F05F8D1DAE34B6005B6AB2 /* MyPasswordUIValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPasswordUIValidation.m; sourceTree = "<group>"; };
+		D0F05F8E1DAE34B6005B6AB2 /* PasswordUIValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordUIValidation.h; sourceTree = "<group>"; };
+		D0F05F8F1DAE34B6005B6AB2 /* PasswordUIValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordUIValidation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0F05F221DADE0DE005B6AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F05F1C1DADE0DE005B6AB2 = {
+			isa = PBXGroup;
+			children = (
+				D0F05F271DADE0DE005B6AB2 /* VCASTrickLock */,
+				D0F05F261DADE0DE005B6AB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F05F261DADE0DE005B6AB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F05F251DADE0DE005B6AB2 /* VCASTrickLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F05F271DADE0DE005B6AB2 /* VCASTrickLock */ = {
+			isa = PBXGroup;
+			children = (
+				D0F05F3F1DADE143005B6AB2 /* VCASLock */,
+				D0F05F2B1DADE0DE005B6AB2 /* AppDelegate.h */,
+				D0F05F2C1DADE0DE005B6AB2 /* AppDelegate.m */,
+				D0F05F2E1DADE0DE005B6AB2 /* ViewController.h */,
+				D0F05F2F1DADE0DE005B6AB2 /* ViewController.m */,
+				D0F05F311DADE0DE005B6AB2 /* Main.storyboard */,
+				D0F05F341DADE0DE005B6AB2 /* Assets.xcassets */,
+				D0F05F361DADE0DE005B6AB2 /* LaunchScreen.storyboard */,
+				D0F05F391DADE0DE005B6AB2 /* Info.plist */,
+				D0F05F281DADE0DE005B6AB2 /* Supporting Files */,
+			);
+			path = VCASTrickLock;
+			sourceTree = "<group>";
+		};
+		D0F05F281DADE0DE005B6AB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F05F291DADE0DE005B6AB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0F05F3F1DADE143005B6AB2 /* VCASLock */ = {
+			isa = PBXGroup;
+			children = (
+				D0F05F531DAE0433005B6AB2 /* VcAsLockMedia */,
+				D0F05F501DAE0345005B6AB2 /* VcAsLockViewController.h */,
+				D0F05F511DAE0345005B6AB2 /* VcAsLockViewController.m */,
+				D0F05F8C1DAE34B6005B6AB2 /* MyPasswordUIValidation.h */,
+				D0F05F8D1DAE34B6005B6AB2 /* MyPasswordUIValidation.m */,
+				D0F05F8E1DAE34B6005B6AB2 /* PasswordUIValidation.h */,
+				D0F05F8F1DAE34B6005B6AB2 /* PasswordUIValidation.m */,
+				D0F05F441DADE416005B6AB2 /* PassWordCanvas.h */,
+				D0F05F451DADE416005B6AB2 /* PassWordCanvas.m */,
+				D0F05F471DADFC92005B6AB2 /* PassWordDotView.h */,
+				D0F05F481DADFC92005B6AB2 /* PassWordDotView.m */,
+				D0F05F4A1DAE00D1005B6AB2 /* PassWordInputView.h */,
+				D0F05F4B1DAE00D1005B6AB2 /* PassWordInputView.m */,
+			);
+			path = VCASLock;
+			sourceTree = "<group>";
+		};
+		D0F05F531DAE0433005B6AB2 /* VcAsLockMedia */ = {
+			isa = PBXGroup;
+			children = (
+				D0F05F721DAE158F005B6AB2 /* VCLockMedia.xcassets */,
+				D0F05F541DAE0433005B6AB2 /* VcAsLock.storyboard */,
+			);
+			path = VcAsLockMedia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0F05F241DADE0DE005B6AB2 /* VCASTrickLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F05F3C1DADE0DE005B6AB2 /* Build configuration list for PBXNativeTarget "VCASTrickLock" */;
+			buildPhases = (
+				D0F05F211DADE0DE005B6AB2 /* Sources */,
+				D0F05F221DADE0DE005B6AB2 /* Frameworks */,
+				D0F05F231DADE0DE005B6AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCASTrickLock;
+			productName = VCASTrickLock;
+			productReference = D0F05F251DADE0DE005B6AB2 /* VCASTrickLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0F05F1D1DADE0DE005B6AB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Tang guifu";
+				TargetAttributes = {
+					D0F05F241DADE0DE005B6AB2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D0F05F201DADE0DE005B6AB2 /* Build configuration list for PBXProject "VCASTrickLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0F05F1C1DADE0DE005B6AB2;
+			productRefGroup = D0F05F261DADE0DE005B6AB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0F05F241DADE0DE005B6AB2 /* VCASTrickLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0F05F231DADE0DE005B6AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F05F551DAE0433005B6AB2 /* VcAsLock.storyboard in Resources */,
+				D0F05F381DADE0DE005B6AB2 /* LaunchScreen.storyboard in Resources */,
+				D0F05F351DADE0DE005B6AB2 /* Assets.xcassets in Resources */,
+				D0F05F331DADE0DE005B6AB2 /* Main.storyboard in Resources */,
+				D0F05F731DAE158F005B6AB2 /* VCLockMedia.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0F05F211DADE0DE005B6AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F05F911DAE34B6005B6AB2 /* PasswordUIValidation.m in Sources */,
+				D0F05F301DADE0DE005B6AB2 /* ViewController.m in Sources */,
+				D0F05F2D1DADE0DE005B6AB2 /* AppDelegate.m in Sources */,
+				D0F05F461DADE416005B6AB2 /* PassWordCanvas.m in Sources */,
+				D0F05F2A1DADE0DE005B6AB2 /* main.m in Sources */,
+				D0F05F4C1DAE00D1005B6AB2 /* PassWordInputView.m in Sources */,
+				D0F05F901DAE34B6005B6AB2 /* MyPasswordUIValidation.m in Sources */,
+				D0F05F491DADFC92005B6AB2 /* PassWordDotView.m in Sources */,
+				D0F05F521DAE0345005B6AB2 /* VcAsLockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0F05F311DADE0DE005B6AB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F05F321DADE0DE005B6AB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0F05F361DADE0DE005B6AB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F05F371DADE0DE005B6AB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0F05F3A1DADE0DE005B6AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0F05F3B1DADE0DE005B6AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0F05F3D1DADE0DE005B6AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VCASTrickLock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcainfo.szass.VCASTrickLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D0F05F3E1DADE0DE005B6AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VCASTrickLock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcainfo.szass.VCASTrickLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0F05F201DADE0DE005B6AB2 /* Build configuration list for PBXProject "VCASTrickLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F05F3A1DADE0DE005B6AB2 /* Debug */,
+				D0F05F3B1DADE0DE005B6AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F05F3C1DADE0DE005B6AB2 /* Build configuration list for PBXNativeTarget "VCASTrickLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F05F3D1DADE0DE005B6AB2 /* Debug */,
+				D0F05F3E1DADE0DE005B6AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0F05F1D1DADE0DE005B6AB2 /* Project object */;
+}
