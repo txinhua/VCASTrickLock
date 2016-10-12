@@ -9,12 +9,12 @@
 
 #How to use it for your project?
 
-## VCTrickLock is available through use CocoaPods.
+## VCASTrickLock is available through use CocoaPods.
 
 ##To install it, simply add the following line to your Podfile:
 
-#pod 'VCTrickLock'
-##Or you can drag the VCLock folder to your project.
+#pod 'VCASTrickLock'
+##Or you can drag the VCASLock folder to your project.
 
 #License
 
