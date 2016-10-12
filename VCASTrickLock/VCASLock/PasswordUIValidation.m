@@ -18,6 +18,8 @@ NSString *const LocalPass = @"fn_lock_pass";
     if (self) {
         _view = passCanvas;
         _view.errorTipContent.text=@"";
+        _view.tipContent.text=@"请输入密码";
+        
         _view.delegate = self;
         errorTimesLeave = [self errorEntryTimeLeft];
     }
