@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "VCASTrickLock"
-s.version      = "1.0"
+s.version      = "1.0.1"
 s.summary      = "A library for make a beautiful TrickLock View like BaiduYun."
 
 s.description  = <<-DESC
