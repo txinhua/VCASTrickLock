@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyPasswordUIValidation.h"
 
-extern NSString *const IsforgetPassWord;
 @interface VcAsLockViewController : UIViewController
-@property(nonatomic,assign)BOOL isSetLockPass;
-@property(nonatomic,assign)BOOL isAlertLockPass;
-@property(nonatomic,assign)BOOL isForgetLockPass;
+@property(nonatomic,copy)ValidationBack callBack;
+@property(nonatomic,assign)VCAsTrickLock vcAsTrickLockType;
+
 @end

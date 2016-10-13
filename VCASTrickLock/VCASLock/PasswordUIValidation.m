@@ -9,7 +9,10 @@
 #import "PasswordUIValidation.h"
 
 NSString *const LocalPassInputErrorTimes = @"fn_entry_times";
+
 NSString *const LocalPass = @"fn_lock_pass";
+
+NSString *const IsforgetPassWord = @"fn_forget_btn_click";
 
 @implementation PasswordUIValidation
 
@@ -34,7 +37,7 @@ NSString *const LocalPass = @"fn_lock_pass";
 //MARK: PasswordInputCompleteProtocol
 -(void)passwordInputComplete:(PassWordCanvas *) passwordContainerView input:(NSString *)input{
     
-    if (_isSetLockPass||_isForgetLockPass) {
+    if (_vcAsTrickLockType==VCAsTrickLockSet||_vcAsTrickLockType==VCAsTrickLockForget ) {
         
         if (_lockPassSetTimes==1) {
             
@@ -42,7 +45,7 @@ NSString *const LocalPass = @"fn_lock_pass";
             
             [passwordContainerView nextPasswordInput];
             
-            passwordContainerView.tipContent.text=_isForgetLockPass?@"请输入新密码":@"请再次输入密码";
+            passwordContainerView.tipContent.text=(_vcAsTrickLockType==VCAsTrickLockForget)?@"请输入新密码":@"请再次输入密码";
             
             _lockPassSetTimes++;
             
@@ -60,7 +63,7 @@ NSString *const LocalPass = @"fn_lock_pass";
             }
         }
         
-    }else if (_isAlertLockPass){
+    }else if (_vcAsTrickLockType==VCAsTrickLockAlert){
         
         if (_lockPassSetTimes==1) {
             BOOL model = NO;
@@ -142,6 +145,29 @@ NSString *const LocalPass = @"fn_lock_pass";
 
 
 -(void)touchAuthenticationComplete:(PassWordCanvas *) passwordContainerView success:(BOOL)success error:(NSError *)error{
+    
+}
+
++(VCAsPass)passStatus{
+    
+    NSUserDefaults *stdDefaults = [NSUserDefaults standardUserDefaults];
+    
+    id obj = [stdDefaults objectForKey:LocalPass];
+    
+    if (obj) {
+        
+        return VCAsPassSet;
+        
+    }
+    obj = [stdDefaults objectForKey:IsforgetPassWord];
+    
+    if (obj) {
+        
+        return VCAsPassForget;
+        
+    }
+    return VCAsPassNone;
+    
 }
 
 @end

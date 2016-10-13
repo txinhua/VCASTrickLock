@@ -27,7 +27,13 @@
     VcAsLockViewController *vcLockView = [storyBoard instantiateViewControllerWithIdentifier:@"VcAsLockViewC"];
     
     if (vcLockView) {
-        vcLockView.isSetLockPass = YES;
+        
+        vcLockView.vcAsTrickLockType = VCAsTrickLockClose;
+        
+        vcLockView.callBack = ^(BOOL isSuccess,VCAsTrickLock vcAsTrickLockType){
+        
+        };
+        
         UINavigationController *nav =[[UINavigationController alloc]initWithRootViewController:vcLockView];
         [self presentViewController:nav animated:YES completion:nil];
     }
